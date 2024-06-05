@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+# Example: Install node modules if you have any build tools
+# npm install
+
+echo "Install script completed successfully."

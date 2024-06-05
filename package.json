@@ -1,0 +1,23 @@
+{
+  "name": "katharineking",
+  "version": "1.0.0",
+  "description": "Personal website for Katharine King",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js",
+    "build": "webpack --config webpack.config.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.0.0",
+    "gh-pages": "^3.2.3",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.3"
+  }
+}

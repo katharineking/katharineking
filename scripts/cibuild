@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+# Run the build script
+./scripts/build
+
+# Deploy the site (this is an example; replace with your deployment logic)
+# For example, you could use rsync to deploy to a server
+# rsync -avz _site/ user@yourserver:/path/to/deploy
+
+echo "CI build and deployment completed successfully."

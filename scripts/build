@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+
+# Clean up the previous build
+rm -rf _site
+
+# Create the _site directory
+mkdir -p _site/assets/css
+
+# Copy HTML files
+cp index.html _site/
+cp about.html _site/
+cp 404.html _site/
+
+# Copy CSS files
+cp -R assets/css _site/assets/
+
+echo "Build completed successfully."
